@@ -35,10 +35,38 @@ header {
 .menuBouton li{
     color: white;
     text-decoration: none;
-    margin-left: 24px;
+    margin-left: 27px;
 }
 
 .fas{
     margin-left: 500px;
     color: white
 }
+
+.Bluebox{
+    background-color: #1E93CC;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div div:nth-child(1){
+    height: 250px;
+    margin-left: 10%;
+   
+}
+
+div div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-top: 5px;
+}
+
+div h1: :nth-child(3){
+    
+}
+
+
+
+
