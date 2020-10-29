@@ -1,20 +1,44 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.BarNav{
-    display:flex;
+header {
     background-color: #333333;
-    padding-left: 100px;
-
 }
 
-.menuBouton {
-    background-color: #333333;
-    color: white;
-    list-style-type: none;
+.Nav {
     display: flex;
-    /* justify-content: flex-start; */
-  
-    
-}   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.menuBouton{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuBouton ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menuBouton li{
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.fas{
+    margin-left: 500px;
+    color: white
+}
