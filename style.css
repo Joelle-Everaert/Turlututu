@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.BarNav{
+    display:flex;
+    background-color: #333333;
+    padding-left: 100px;
+
+}
+
+.menuBouton {
+    background-color: #333333;
+    color: white;
+    list-style-type: none;
+    justify-content: flex-start;
+    display: flex;
+    
+  
+    
+}   
