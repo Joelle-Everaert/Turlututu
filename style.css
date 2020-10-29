@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .BarNav{
@@ -13,9 +13,8 @@ body{
     background-color: #333333;
     color: white;
     list-style-type: none;
-    justify-content: flex-start;
     display: flex;
-    
+    /* justify-content: flex-start; */
   
     
 }   
