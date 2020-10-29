@@ -45,26 +45,32 @@ header {
 
 .Bluebox{
     background-color: #1E93CC;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
-div div:nth-child(1){
-    height: 250px;
-    margin-left: 10%;
-   
+.mecget{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    margin-left: 80px;
 }
 
-div div:nth-child(2){
+/* Ca ne fonctionne pas ! */
+
+.logoflou{
     display: flex;
     flex-direction: column;
-    margin-right: 30%;
-    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+
 }
 
-div h1: :nth-child(3){
-    
+.logoFlou h1 {
+    color: white;
 }
 
 
