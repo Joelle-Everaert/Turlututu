@@ -62,13 +62,19 @@ header {
     margin-left: 80px;
 }
 
+/* Créer une liste pour logo flou 
+y mettre list-style-type: none;
+text-align: center;
+padding left list de 20% */
+
+
 /* Ca ne fonctionne pas ! */
 
 .logoflou{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
     margin-left: 50%;
 
 }
