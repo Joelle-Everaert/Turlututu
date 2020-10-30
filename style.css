@@ -1,3 +1,5 @@
+/* Part I */
+
 body{
     font-family: 'Encode Sans Condensed', sans-serif;
 }
@@ -43,6 +45,8 @@ header {
     color: white
 }
 
+/* Part II */
+
 .Bluebox{
     background-color: #1E93CC;
     /* height: 300px; */
@@ -74,5 +78,37 @@ header {
 }
 
 
+/* Part III */
+
+.whitebox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+    
+.whitebox p{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/* Part IV */
+
+
+.blueFont{
+    display: flex;
+    flex-direction: row;
+    background-color:  #1E93CC;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+}
+
+.textart{
+    color: white;
+
+}
 
 
