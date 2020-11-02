@@ -162,7 +162,9 @@ h2 {
 }
 
 /* PART V */
-
+.whitebox{
+    color: #71717B
+}
 
 /* PART VI */
 
@@ -199,9 +201,14 @@ h2 {
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 35px;
-    border: solid;
-    border-color: white;
+    margin-right: 50px;
+    margin-right: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: none;
     background-color: #165882;
+    /* border: solid;
+    border-color: #71717B; */
 }
 
 .orange{
@@ -211,9 +218,12 @@ h2 {
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 35px;
-    border: solid;
-    border-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: none;
     background-color: #E99002;
+    /* border: solid;
+    border-color:#71717B; */
 }
 
 .BoutonFinal a{
@@ -222,7 +232,30 @@ h2 {
     font-size: 20px;
 }
 
-.bleu button:hover{
+button .bleu{
+    background-color: #165882;
+}
+
+button.orange{
     background-color: #E99002;
 }
+
+
+button.bleu:hover{
+    background-color: #E99002;
+}
+
+button.bleu:active{
+    background-color: rgba(255, 0, 0, 0.603);
+}
+
+button.orange:hover{
+    background-color: #165882;
+}
+
+button.orange:active{
+    background-color:rgba(255, 0, 0, 0.603);
+}
+
+/* PART VIII */
 
