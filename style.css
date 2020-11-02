@@ -1,6 +1,6 @@
 /* Part I */
 
-body{
+body {
     font-family: 'Encode Sans Condensed', sans-serif;
 }
 
@@ -12,7 +12,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo {
@@ -21,100 +21,134 @@ header {
 
 }
 
-.menuBouton{
+.menuBouton {
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.menuBouton ul{
+.menuBouton ul {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-.menuBouton li{
+.menuBouton li {
     color: white;
     text-decoration: none;
     margin-left: 27px;
 }
 
-.fas{
+.fas {
     margin-left: 500px;
     color: white
 }
 
 /* Part II */
 
-.Bluebox{
+.Bluebox {
     background-color: #1E93CC;
-    /* height: 300px; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+    justify-content: space-around; */
 }
 
-.mecget{
-    display: flex;
-    justify-content: flex-start;
+.Bluebox div {
+    width: 33%;
+}
+
+
+.mecget {
     margin-top: 25px;
     margin-bottom: 60px;
-    margin-left: 80px;
+    margin-left: 100px;
+    padding-left: 100px;
 }
 
-/* Créer une liste pour logo flou 
-y mettre list-style-type: none;
-text-align: center;
-padding left list de 20% */
+.logoFlou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 500px; */
+    align-items: center;
+}
 
-
-/* Ca ne fonctionne pas ! */
-
-.logoflou{
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: center; */
-    text-align: center;
-    margin-left: 50%;
-
+.logoFlou img {
+    margin-top: 30px;
 }
 
 .logoFlou h1 {
     color: white;
+    text-align: center;
+    margin-top: -9px;
+}
+
+
+button {
+    border-color: white;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(233, 144, 2);
+    margin-top: -15px;
+    
+}
+
+.logoFlou a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.logoFlou button:hover{
+    background-color: #165882;
+}
+
+.logoFlou button:active{
+    background-color: rgba(255, 0, 0, 0.603)
 }
 
 
 /* Part III */
 
-.whitebox{
-    display:flex;
+.whitebox {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     height: 50px;
 }
-    
-.whitebox p{
+
+.whitebox p {
     font-size: 16pt;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Part IV */
 
 
-.blueFont{
+.blueFont {
     display: flex;
     flex-direction: row;
-    background-color:  #1E93CC;
+    background-color: #1E93CC;
+}
+.art1{
+    margin-left: 50px;
+
 }
 
-h2{
+h2 {
     color: white;
     font-weight: bold;
 }
 
-.textart{
+.textart {
     color: white;
 
 }
-
-
