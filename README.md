@@ -23,7 +23,7 @@ Put into practice our knowledge learned during the training course
 * HTML
 * CSS
     * Flexbox
-* under construction
+
 
 ## Overview :collision:
 

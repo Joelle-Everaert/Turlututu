@@ -61,7 +61,7 @@ header {
     margin-top: 30px;
     margin-bottom: 60px;
     margin-left: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .logoFlou {
@@ -72,7 +72,7 @@ header {
 }
 
 .logoFlou img {
-    margin-top: 10px;
+    margin-top: -9px;
 }
 
 .logoFlou h1 {
@@ -92,21 +92,21 @@ header {
     margin-top: -15px;
     border: solid;
     border-color: white;
-    
+
 }
 
 .logoFlou a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    
+
 }
 
-.logoFlou button:hover{
+.logoFlou button:hover {
     background-color: #165882;
 }
 
-.logoFlou button:active{
+.logoFlou button:active {
     background-color: rgba(255, 0, 0, 0.603)
 }
 
@@ -136,14 +136,15 @@ header {
     flex-direction: row;
     background-color: #1E93CC;
 }
-.art1{
+
+.art1 {
     margin-left: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
 
 }
 
-.art2{
+.art2 {
     margin-right: 100px;
     margin-left: 15px;
     margin-top: 15px;
@@ -162,39 +163,52 @@ h2 {
 }
 
 /* PART V */
-.whitebox{
-    color: #71717B
+.whitebox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    color: #71717B;
+    font-size: 16pt;
+    padding-bottom: 20px;
 }
 
 /* PART VI */
 
-.greybox{
+.greybox {
     background-color: #EEEEEE;
-    height: 210px;  
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}   
-
-.image{
-    display: flex;
-    justify-content: center;
 }
 
-.logoProd{
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.logoProd {
     display: flex;
     justify-content: center;
 }
 
 /* PART VII */
 
-.BoutonFinal{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;       
+.menuboutonfinal {
+    background-color: white;
+    height: 200px;
 }
 
-.bleu{
+.BoutonFinal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.bleu {
     line-height: 3.5;
     padding: 0 20px;
     text-align: center;
@@ -211,7 +225,7 @@ h2 {
     border-color: #71717B; */
 }
 
-.orange{
+.orange {
     line-height: 3.5;
     padding: 0 20px;
     text-align: center;
@@ -226,36 +240,83 @@ h2 {
     border-color:#71717B; */
 }
 
-.BoutonFinal a{
+.BoutonFinal a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-button .bleu{
+button .bleu {
     background-color: #165882;
+
 }
 
-button.orange{
+button.orange {
     background-color: #E99002;
 }
 
-
-button.bleu:hover{
+button.bleu:hover {
     background-color: #E99002;
+    transition-duration: 1s;
 }
 
-button.bleu:active{
+button.bleu:active {
     background-color: rgba(255, 0, 0, 0.603);
 }
 
-button.orange:hover{
+button.orange:hover {
     background-color: #165882;
+    transition-duration: 1s;
 }
 
-button.orange:active{
-    background-color:rgba(255, 0, 0, 0.603);
+button.orange:active {
+    background-color: rgba(255, 0, 0, 0.603);
 }
 
 /* PART VIII */
 
+footer {
+    background-color: #222222;
+
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menufinal {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+.menufinal li {
+    border-right-style: dotted;
+    border-color: white;
+    border-width: 1px;
+    padding-right: 10px;
+    font-size: small;
+}
+
+.nobarre li {
+    border-right-style: none;
+}
+
+.menufinal a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+}
+
+.date {
+    color: white;
+    padding-left: 760px;
+    font-size: small;
+}
