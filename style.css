@@ -94,6 +94,8 @@ button {
     margin-bottom: 30px;
     background-color: rgb(233, 144, 2);
     margin-top: -15px;
+    border: solid;
+    border-color: white;
     
 }
 
@@ -123,7 +125,7 @@ button {
 }
 
 .whitebox p {
-    font-size: 16pt;
+    font-size: 20pt;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -139,16 +141,43 @@ button {
     background-color: #1E93CC;
 }
 .art1{
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
+}
+
+.art2{
+    margin-right: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
     color: white;
     font-weight: bold;
+    margin-bottom: -10px;
 }
 
 .textart {
     color: white;
 
 }
+
+/* PART V */
+
+
+/* PART VI */
+
+.greybox{
+    background-color: #EEEEEE;
+    height: 210px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+
+    
+
