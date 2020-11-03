@@ -3,7 +3,7 @@
 
 * Solo project made by me: [Joelle Everaert](https://github.com/Joelle-Everaert) :blush:
 
-* UNDER CONSTRUCTION
+* 03.11.2020
 
 ## What is this ?
 
@@ -27,12 +27,14 @@ Put into practice our knowledge learned during the training course
 
 ## Overview :collision:
 
-No yet
+![little overview](Overview.png) 
 
 
 ### Original instruction
 
-> [Link] ...
+> [Link](https://github.com/becodeorg/bxl-hopper-1-25/blob/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/turlututu.png)
+
+
 
 
 

@@ -28,6 +28,11 @@ header {
     justify-content: space-between;
 }
 
+.menuBouton a {
+    text-decoration: none;
+    color: white;
+}
+
 .menuBouton ul {
     display: flex;
     justify-content: center;
@@ -43,6 +48,11 @@ header {
 .fas {
     margin-left: 500px;
     color: white
+}
+
+.fas a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Part II */
@@ -171,6 +181,7 @@ h2 {
     color: #71717B;
     font-size: 16pt;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 /* PART VI */
@@ -209,7 +220,7 @@ h2 {
 }
 
 .bleu {
-    line-height: 3.5;
+    line-height: 3;
     padding: 0 20px;
     text-align: center;
     border-radius: 10px;
@@ -217,8 +228,8 @@ h2 {
     margin-top: 35px;
     margin-right: 50px;
     margin-right: 5px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
     border: none;
     background-color: #165882;
     /* border: solid;
@@ -226,14 +237,14 @@ h2 {
 }
 
 .orange {
-    line-height: 3.5;
+    line-height: 3;
     padding: 0 20px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 35px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
     border: none;
     background-color: #E99002;
     /* border: solid;
