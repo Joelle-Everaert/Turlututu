@@ -1,4 +1,4 @@
-# paste copy of a picture
+# Paste copy of a picture
 
 
 * Solo project made by me: [Joelle Everaert](https://github.com/Joelle-Everaert) :blush:
